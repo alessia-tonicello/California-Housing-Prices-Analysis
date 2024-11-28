@@ -20,10 +20,14 @@ The dataset used for this project, _housing.csv_, is from the StatLib repository
 
 2. Data Cleaning
    - Identified and handled missing values:
-       - Located rows with missing data using .isnull() and inspected them.
-       - Dropped rows or columns with significant missing data (dropna() and drop() functions).
+       - Located rows with missing data using ```.isnull()``` and inspected them.
+       - Dropped rows or columns with significant missing data (```dropna()``` and ```drop()``` functions).
 
 3. Data Analysis
+   - Explored the relationship between geographic features and housing prices using scatter plots.
+   - Investigated the correlation between features such as median income, population, and median house value.
+   - Analyzed the impact of proximity to the ocean on housing prices.
+   - Evaluated household density and its relationship with median income and median house value.
 
 4. Visualization
    - Used Matplotlib to visualize the data
@@ -33,4 +37,25 @@ The dataset used for this project, _housing.csv_, is from the StatLib repository
        - Enhanced Scatter Plot: Used color and size encoding to represent housing prices, population, and income visually.
        - Households Scatter Plot: Analyzed the relationship between household density and median income.
 
+## Code Usage
+1. Install Python Libraries:
+   - You only need Python installed with the pandas library. Install it with: --> ```pip install pandas```
 
+2. Run the Script:
+   - Use the following command in your terminal to execute the analysis: --> ```python california_housing_analysis.py```
+
+3. View the Output:
+   - The script will display histograms for feature distributions and scatter plots displaying geographic trends, population density, and the relationship between median income and housing prices.
+
+## Results 
+- A histogram showing feature distributions.
+- Scatter plots:
+   - Housing locations.
+   - Geographic representation of median house values and population density.
+   - Household density vs. median income.
+
+## Technologies Used
+- **Python**: The primary language used for analysis.
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib**: For data visualization.
+- **Jupyter Notebook**: For an interactive environment to run and display code.
